@@ -1,6 +1,5 @@
 {
   "extends": ["config:base"],
-  "ignoreDeps": ["@rehooks/local-storage"],
   "packageRules": [
     {
       "updateTypes": ["minor", "patch"],
