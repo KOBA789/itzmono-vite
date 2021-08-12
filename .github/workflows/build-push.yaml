@@ -17,9 +17,12 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Downcase GITHUB_REPOSITORY
+        run: |
+          echo "REPO_LOWERCASE=${GITHUB_REPOSITORY,,}" >> "${GITHUB_ENV}"
       - name: Build container image
         uses: docker/build-push-action@v2
         with:
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:${{ github.sha }}
+            ghcr.io/${{ env.REPO_LOWERCASE }}:${{ github.sha }}
