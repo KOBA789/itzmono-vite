@@ -241,18 +241,18 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
-"@blueprintjs/colors@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-1.0.0.tgz#3b3501eae2294098fe5bdf8f37d0c471e95cd0e6"
-  integrity sha512-eJh111ucz8HYxLBON6ADkAGQQBACqdbX6Zws/GpuiTkeCFJ3IAjZdBpk7IM7/Y5XuGuSS1ujwjnLDOEtyywtKw==
+"@blueprintjs/colors@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-1.0.1.tgz#d351cadffd33c2dba766e555868245aa8cc3ef23"
+  integrity sha512-m3YIBs2glOizIeIsKuYzN6P82Yuzq7iWPctqD7CAGyD+8sklJKW4dwFDEXhjW1nz40YGZZdw4DZM0eQcurQFMA==
 
-"@blueprintjs/core@3.48.0":
-  version "3.48.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.48.0.tgz#e2d27c05943203d4979eae95f8a0c10b24d2b6cc"
-  integrity sha512-tuAL3dZrNaTq36RRy6O86wjmkiLt8LwHkleZ1zUcn/DC3cXsM3dSsRpV3f662bcEiAXMPeGemSC3tqv6uZCeLg==
+"@blueprintjs/core@3.49.0":
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.49.0.tgz#cfb8c5c62ae206877cb199f9a7ba350c07c98af3"
+  integrity sha512-vtcmNiCATAZw5yuiBEsgPg1vnBL1MGemT7etGiKGNwqcTI+uWeCb78h6thzLoPWxq5/2aPwmzQcMDq3w5lYMdQ==
   dependencies:
-    "@blueprintjs/colors" "^1.0.0"
-    "@blueprintjs/icons" "^3.28.0"
+    "@blueprintjs/colors" "^1.0.1"
+    "@blueprintjs/icons" "^3.29.0"
     "@types/dom4" "^2.0.1"
     classnames "^2.2"
     dom4 "^2.1.5"
@@ -264,10 +264,18 @@
     resize-observer-polyfill "^1.5.1"
     tslib "~1.13.0"
 
-"@blueprintjs/icons@3.28.0", "@blueprintjs/icons@^3.28.0":
+"@blueprintjs/icons@3.28.0":
   version "3.28.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.28.0.tgz#d06528df4aadc0ea685b0b3be18fd3b19dece9e5"
   integrity sha512-gDvvU2ljV4NXsY5ofKcs1ChXAgmqNp/DIMu2uJIJmXhSXfP6JDd4qbnbGMsP3FmLTaqQP3E9oBZqAG/FRB8VmQ==
+  dependencies:
+    classnames "^2.2"
+    tslib "~1.13.0"
+
+"@blueprintjs/icons@^3.29.0":
+  version "3.29.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.29.0.tgz#2e786c6264a1783f2df9423749236189a84c436e"
+  integrity sha512-FDpPsEBwzsFBsxDXNsea+u+bU+iFWcVTbKH05+jtGEpvDEOrpOsOwUYvkBvVaReR0DORREVye2/NL0/uvLCRrg==
   dependencies:
     classnames "^2.2"
     tslib "~1.13.0"
