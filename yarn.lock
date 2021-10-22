@@ -2764,7 +2764,7 @@ warning@^4.0.2, warning@^4.0.3:
   dependencies:
     loose-envify "^1.0.0"
 
-wasm-pack@^0.10.1:
+wasm-pack@0.10.1:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/wasm-pack/-/wasm-pack-0.10.1.tgz#5d50649aee827192c42c941991856d47b90cff27"
   integrity sha512-bw480KaaJQhL6UX8wAm6YCO497uaULDrsvUey3EB86dKAfFc6qCGVN1kItcwUklEeufonwo9mwz9/fy9xLOPtQ==
