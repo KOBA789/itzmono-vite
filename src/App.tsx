@@ -5,8 +5,10 @@ import init, { greet } from "./crates/hello/pkg";
 init();
 
 export const App: React.FC = () => {
-  return <>
-    <H1>Hello</H1>
-    <Button onClick={() => greet()}>Say hello</Button>
-  </>;
+  return (
+    <>
+      <H1>Hello</H1>
+      <Button onClick={() => greet()}>Say hello</Button>
+    </>
+  );
 };
