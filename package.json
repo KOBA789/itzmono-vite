@@ -1,5 +1,5 @@
 {
-  "name": "maze-ui",
+  "name": "itzmono-vite",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --host",
