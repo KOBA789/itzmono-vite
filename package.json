@@ -45,6 +45,7 @@
     "postcss": "8.3.11",
     "prettier": "2.4.1",
     "typescript": "4.4.4",
-    "vite": "2.6.10"
+    "vite": "2.6.10",
+    "wasm-pack": "^0.10.1"
   }
 }
