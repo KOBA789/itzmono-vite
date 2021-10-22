@@ -25,5 +25,8 @@ jobs:
       - name: Lint Prettier
         run: yarn lint:prettier
 
+      - name: Build crates
+        run: yarn build:crates
+
       - name: TypeCheck
         run: yarn typecheck
