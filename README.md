@@ -1,11 +1,12 @@
 # itzmono-vite
 
-A project template for Vite + TypeScript + React + Tailwind CSS + Blueprint apps 🚀
+A project template for Vite + TypeScript + Rust + React + Tailwind CSS + Blueprint apps 🚀
 
 ## Batteries Included
 
 - :zap: Vite 2
 - :shield: TypeScript
+- :crab: Rust (WebAssembly)
 - :boom: React
 - :wind_chime: Tailwind CSS
 - :package: Blueprint
