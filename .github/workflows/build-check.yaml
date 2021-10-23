@@ -1,0 +1,18 @@
+name: Build Container image
+on:
+  push:
+    branches:
+      - "*"
+      - "!master"
+
+jobs:
+  build_and_push:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Build container image
+        uses: docker/build-push-action@v2
+        with:
+          push: false

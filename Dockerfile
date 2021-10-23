@@ -1,5 +1,6 @@
 ARG RUST_VERSION=1.56
 FROM node:17-slim as builder
+ARG RUST_VERSION
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
