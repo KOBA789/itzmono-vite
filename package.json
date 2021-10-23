@@ -2,8 +2,8 @@
   "name": "itzmono-vite",
   "version": "0.0.0",
   "scripts": {
-    "crate:build": "cd src/crates && wasm-pack build --target web --release",
-    "crate:dev": "cd src/crates && cargo watch -s 'wasm-pack build --target web --dev' -C",
+    "crate:build": "cd crates && wasm-pack build --target web --release",
+    "crate:dev": "cd crates && cargo watch -s 'wasm-pack build --target web --dev' -C",
     "crate": "yarn crate:${MODE:-build}",
     "crates:hello": "yarn crate hello",
     "dev:crates": "MODE=dev run-p crates:*",
@@ -45,7 +45,6 @@
     "postcss": "8.3.11",
     "prettier": "2.4.1",
     "typescript": "4.4.4",
-    "vite": "2.6.10",
-    "wasm-pack": "0.10.1"
+    "vite": "2.6.10"
   }
 }

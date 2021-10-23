@@ -1,3 +1,5 @@
 /node_modules/
 /dist/
-Dockerfile
+/Dockerfile
+/crates/*/pkg
+/crates/*/target
