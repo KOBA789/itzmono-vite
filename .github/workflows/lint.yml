@@ -16,9 +16,6 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
 
-      - name: Install wasm-pack
-        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
-
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
 
@@ -27,6 +24,9 @@ jobs:
 
       - name: Lint Prettier
         run: yarn lint:prettier
+
+      - name: Install wasm-pack
+        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 
       - name: Build crates
         run: yarn build:crates
