@@ -8,7 +8,7 @@ export default defineConfig({
       {
         find: "@crate/",
         replacement: "/crates/",
-      }
+      },
     ],
   },
   plugins: [reactRefresh()],
