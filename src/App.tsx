@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, H1 } from "@blueprintjs/core";
-import init, { greet } from "./crates/hello/pkg";
+import init, { greet } from "@crate/hello/pkg";
 
 init();
 
