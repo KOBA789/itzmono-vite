@@ -2,7 +2,7 @@ name: Build and Publish Container image
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build_and_push:
