@@ -21,7 +21,7 @@
     "fix": "run-s fix:eslint fix:prettier"
   },
   "dependencies": {
-    "@blueprintjs/core": "3.52.0",
+    "@blueprintjs/core": "3.53.0",
     "@blueprintjs/icons": "3.31.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
