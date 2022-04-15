@@ -242,17 +242,17 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@blueprintjs/colors@^4.0.5":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-4.0.5.tgz#7841a62b350f94fd2f2cc36e04c9e62d19e6986d"
-  integrity sha512-5ewWnDdUzyP7hnfidIPyAykGmjHAY2xjcUPM3J2hmnAQ4FORWPv7Mr3PJ9D0D7GfZV/ACx3URRclE1MXfvVlGA==
+"@blueprintjs/colors@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-4.1.0.tgz#6715062ff4c51667726ba690b49cafe14ace687a"
+  integrity sha512-aXgkEBg2oEz6lCE/sidvREUzQF7eJq2R8BvfOcQ1ICV4r/KVFszee6seA12ZtVaphfvuR4EE/raH6F1d0f4y7g==
 
-"@blueprintjs/core@4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.1.2.tgz#37894a74a935985e1bb80caf9d7cc6126aac369c"
-  integrity sha512-k5eSjEP4vOZ2MMBm+T32eqsWsvsxdENwRvCISOfhfHTB23p/XlhlU1B+iILozO8ocIIpsYLseLABvSwabsvdEg==
+"@blueprintjs/core@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.2.0.tgz#3a5996e82081cb12d160669ad49b8e158520f79f"
+  integrity sha512-/bQN8mukY6VdeB1Bv2j/GQmJILe+drTNT4cO958QwGvPaJWLLD2Z/XdfTj8ffoWtYMrDLvVKkXKHt99gOnlUJQ==
   dependencies:
-    "@blueprintjs/colors" "^4.0.5"
+    "@blueprintjs/colors" "^4.1.0"
     "@blueprintjs/icons" "^4.2.3"
     "@juggle/resize-observer" "^3.3.1"
     "@types/dom4" "^2.0.1"
