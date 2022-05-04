@@ -1,5 +1,5 @@
 ARG RUST_VERSION=1.56
-FROM node:17-slim as builder
+FROM node:18-slim as builder
 ARG RUST_VERSION
 
 RUN apt-get update && \
