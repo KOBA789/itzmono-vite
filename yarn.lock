@@ -247,13 +247,13 @@
   resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-4.1.3.tgz#7e0a32a086bdc68ea51df0dda1f94913dbd874c1"
   integrity sha512-ANRQZT5h9+zC8B/y0S9B+SqEpicL0XRT4drAhiPFHBrOStRZWzOh3bPrwNSPqr7tdShxYtMyxbH+fkHMetZaxg==
 
-"@blueprintjs/core@4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.3.2.tgz#a17c70373a6b01ebb5fcc5aa2f3099d4c6909541"
-  integrity sha512-Fs5HmK+ApApuMrcMXPWQTPLHUPl7QV/W2liZTMiAwQpb7jB11XCprmDZPh3Kk8KGcxzGdrXBg8OGsP6rEn5Tug==
+"@blueprintjs/core@4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.4.0.tgz#e21f79db8410d354bed9c43862d1ba03e8524d78"
+  integrity sha512-RXjcw+CK/YgspJpn6eDg8izg2gS4jDuCryJBfoz8EyhSwsNblsE9ww85/1XMmA/ve5/RnrEqE9YNew30TO/Ucw==
   dependencies:
     "@blueprintjs/colors" "^4.1.3"
-    "@blueprintjs/icons" "^4.2.6"
+    "@blueprintjs/icons" "^4.3.0"
     "@juggle/resize-observer" "^3.3.1"
     "@types/dom4" "^2.0.1"
     classnames "^2.2"
@@ -264,10 +264,19 @@
     react-transition-group "^4.4.1"
     tslib "~2.3.1"
 
-"@blueprintjs/icons@4.2.6", "@blueprintjs/icons@^4.2.6":
+"@blueprintjs/icons@4.2.6":
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-4.2.6.tgz#cf328e184c551f8df1905737d9ed8b43fd5eb790"
   integrity sha512-wA0pNMWoDfeyC2kPYvgQ2H2iLVdGAtVNa7bHB9ZO0MKufzGXeyt0fKj2s6jFETa5MxXxfCt4hfSNSgv2+TRsbg==
+  dependencies:
+    change-case "^4.1.2"
+    classnames "^2.2"
+    tslib "~2.3.1"
+
+"@blueprintjs/icons@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-4.3.0.tgz#01fb41cc323b9ce98f078f8273730884979b7da5"
+  integrity sha512-uLEdVUkWe0E2Bzfh2mqW2/3DRCqFo/vsSBYXrqOzFPiBsxCnu8ySEPInJWU+OHHPA/zM1hYMfrvKjfyaIIgbew==
   dependencies:
     change-case "^4.1.2"
     classnames "^2.2"
