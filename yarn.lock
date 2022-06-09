@@ -247,10 +247,10 @@
   resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-4.1.3.tgz#7e0a32a086bdc68ea51df0dda1f94913dbd874c1"
   integrity sha512-ANRQZT5h9+zC8B/y0S9B+SqEpicL0XRT4drAhiPFHBrOStRZWzOh3bPrwNSPqr7tdShxYtMyxbH+fkHMetZaxg==
 
-"@blueprintjs/core@4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.4.1.tgz#2f1f0e47dc27f0689deb342b7c40ec12a2b2201b"
-  integrity sha512-gYHpu0u30R7wWlQljHX0Y+Rf2F2NJI965bMio3GcrI3L3T86jA2w1w+5bNQ/v04o7GdNwKHmuF8CG73kYB0LJQ==
+"@blueprintjs/core@4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.5.0.tgz#07fdc8d0d362a7b364a4712ba355cd0161396c32"
+  integrity sha512-lTymPTV/yKMCLq6Ra3LKHLDUpPdpnRN0jHKqB0dcAMLvo7ID/ZeEAxt1VJeqhufqzQewXUjOYlKl2/BfAlh9dg==
   dependencies:
     "@blueprintjs/colors" "^4.1.3"
     "@blueprintjs/icons" "^4.3.0"
