@@ -4,7 +4,7 @@ A project template for Vite + TypeScript + Rust + React + Tailwind CSS + Bluepri
 
 ## Batteries Included
 
-- :zap: Vite 2
+- :zap: Vite 3
 - :shield: TypeScript
 - :crab: Rust (WebAssembly)
 - :boom: React
