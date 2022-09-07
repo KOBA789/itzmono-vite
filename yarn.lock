@@ -246,18 +246,18 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@blueprintjs/colors@^4.1.5":
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-4.1.5.tgz#e01f4cf9e93b2c4f517ea14ab2cf9abc31da160c"
-  integrity sha512-OeQJedtUpJierCR2wueifrLqWb3c7K78XE/2achGvk0GJT4eOedHbS3PlaBJTc7oTpaNdGMazAM3WhCbiHVmtA==
+"@blueprintjs/colors@^4.1.6":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-4.1.6.tgz#a2e3d02b40867b3770187c69a8514f113ab4dd85"
+  integrity sha512-3/kahUWyvgQUV9NtCMeeJgTFHziM2Z3f4hjDfnl03X4MW0onUeZfa2Mu4ZsRn2IAK7AmfLNkZe8vp8mxX9pDRg==
 
-"@blueprintjs/core@4.9.3":
-  version "4.9.3"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.9.3.tgz#70642933c19c0f18698d4ae93af5a40aeb1df8fe"
-  integrity sha512-8a0oBn7tMIcVkSH1SbcbdVD+UCRhigA1dvZe6C6D6i2FbfmEwR1glizuv1j9UBHFyHoE1EkPPlH/y7KIwhhMtQ==
+"@blueprintjs/core@4.9.4":
+  version "4.9.4"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.9.4.tgz#55ad485a1f880e62d569b9d2b0863d3f2d1070e8"
+  integrity sha512-aEhhXAzDGHNyC4BTn6AvkJBbS3AYofHzlNcqOvyNdU5SBVv+UabKs8Q8xMOhr0K6sn1BEEhtLvsW8IfhrSli3g==
   dependencies:
-    "@blueprintjs/colors" "^4.1.5"
-    "@blueprintjs/icons" "^4.4.1"
+    "@blueprintjs/colors" "^4.1.6"
+    "@blueprintjs/icons" "^4.4.2"
     "@juggle/resize-observer" "^3.3.1"
     "@types/dom4" "^2.0.1"
     classnames "^2.2"
@@ -268,10 +268,19 @@
     react-transition-group "^4.4.1"
     tslib "~2.3.1"
 
-"@blueprintjs/icons@4.4.1", "@blueprintjs/icons@^4.4.1":
+"@blueprintjs/icons@4.4.1":
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-4.4.1.tgz#48d1568a97075db1080dcbb96e7c27ccadc111bb"
   integrity sha512-+xwY7IYsmT9wdphzr9mIv/qsao6rP0yceMPTc1Lyz65uVZSIKNjpkaBN/LzcF+JneTW85paXbNTk4gxWkpqrig==
+  dependencies:
+    change-case "^4.1.2"
+    classnames "^2.2"
+    tslib "~2.3.1"
+
+"@blueprintjs/icons@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-4.4.2.tgz#229371eab7672fa334083a485846f9fad64ebca7"
+  integrity sha512-6oHWphGsRRYbz24IYBVI7Gz4jnxmO2AKeHNJUpghHg0GicKIjp4fNd+l6I+1q5N0CLDeY3sYjUnV7Cp+dq0+Sw==
   dependencies:
     change-case "^4.1.2"
     classnames "^2.2"
