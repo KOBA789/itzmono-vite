@@ -268,16 +268,7 @@
     react-transition-group "^4.4.1"
     tslib "~2.3.1"
 
-"@blueprintjs/icons@4.4.2":
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-4.4.2.tgz#229371eab7672fa334083a485846f9fad64ebca7"
-  integrity sha512-6oHWphGsRRYbz24IYBVI7Gz4jnxmO2AKeHNJUpghHg0GicKIjp4fNd+l6I+1q5N0CLDeY3sYjUnV7Cp+dq0+Sw==
-  dependencies:
-    change-case "^4.1.2"
-    classnames "^2.2"
-    tslib "~2.3.1"
-
-"@blueprintjs/icons@^4.5.0":
+"@blueprintjs/icons@4.5.0", "@blueprintjs/icons@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-4.5.0.tgz#1b3dadaac5dd51ca56547a0f1088cef9435234c3"
   integrity sha512-IQCUrPfv6QxuLFkLT4h61COCxVyugAXQ1b+QhomJC8UukUjIFDQfG1YrbLRIuwngZMBH3JPov7ZM7wlp9x9REA==
