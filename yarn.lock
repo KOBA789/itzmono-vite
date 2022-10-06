@@ -246,21 +246,21 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@blueprintjs/colors@^4.1.6":
-  version "4.1.6"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-4.1.6.tgz#a2e3d02b40867b3770187c69a8514f113ab4dd85"
-  integrity sha512-3/kahUWyvgQUV9NtCMeeJgTFHziM2Z3f4hjDfnl03X4MW0onUeZfa2Mu4ZsRn2IAK7AmfLNkZe8vp8mxX9pDRg==
+"@blueprintjs/colors@^4.1.7":
+  version "4.1.7"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-4.1.7.tgz#3ccac41eabc3245da20669e6aafafe6c0271d264"
+  integrity sha512-4qmwwNabzJ6TbdWLjfVFqoCz6OPZpPDV6xvSmnEnS6tWSQ+bepi/ybzx3kKOGtNk1lu0tFDU6tnVti7uz23XaQ==
 
-"@blueprintjs/core@4.10.2":
-  version "4.10.2"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.10.2.tgz#3d8822717273a41f5a586858838dec2a803fe9b7"
-  integrity sha512-YbjHXDPX8rxXoRHrScrCBH+GsgiVRnhBqLnWFLlClpdJTRvk6HVUpZN5OL138lZSgcQH4quZ+Fg8PLFflIx/Yw==
+"@blueprintjs/core@4.11.2":
+  version "4.11.2"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-4.11.2.tgz#2c63e2e89342b7ee70b357f25ebcd4c4039f02d3"
+  integrity sha512-FTo8Gd9K82u0Ydr6EqLeiH4/NxPX4U2WfqHvm2ZOJjhGooyBROqgYad3PXhepoN+LZm+EmiBvDwxqbHKDlYmlw==
   dependencies:
-    "@blueprintjs/colors" "^4.1.6"
-    "@blueprintjs/icons" "^4.6.0"
-    "@juggle/resize-observer" "^3.3.1"
-    "@types/dom4" "^2.0.1"
-    classnames "^2.2"
+    "@blueprintjs/colors" "^4.1.7"
+    "@blueprintjs/icons" "^4.6.3"
+    "@juggle/resize-observer" "^3.4.0"
+    "@types/dom4" "^2.0.2"
+    classnames "^2.3.2"
     dom4 "^2.1.5"
     normalize.css "^8.0.1"
     popper.js "^1.16.1"
@@ -268,7 +268,7 @@
     react-transition-group "^4.4.1"
     tslib "~2.3.1"
 
-"@blueprintjs/icons@4.6.3", "@blueprintjs/icons@^4.6.0":
+"@blueprintjs/icons@4.6.3", "@blueprintjs/icons@^4.6.3":
   version "4.6.3"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-4.6.3.tgz#e2a9f5deed0008c48681263c30afa296baccf225"
   integrity sha512-PF+4qFMFyi751O2teQGkEylW6b0MuxoPyz34sTc43ouMs+xLMGenP5Mz/c4VtzsOJz6r1AdvC9V1T02vKcMEKg==
@@ -366,10 +366,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@juggle/resize-observer@^3.3.1":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.3.1.tgz#b50a781709c81e10701004214340f25475a171a0"
-  integrity sha512-zMM9Ds+SawiUkakS7y94Ymqx+S0ORzpG3frZirN3l+UlXUmSUR7hF4wxCVqW+ei94JzV5kt0uXBcoOEAuiydrw==
+"@juggle/resize-observer@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
+  integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -392,7 +392,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@types/dom4@^2.0.1":
+"@types/dom4@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@types/dom4/-/dom4-2.0.2.tgz#6495303f049689ce936ed328a3e5ede9c51408ee"
   integrity sha512-Rt4IC1T7xkCWa0OG1oSsPa0iqnxlDeQqKXZAHrQGLb7wFGncWm85MaxKUjAGejOrUynOgWlFi4c6S6IyJwoK4g==
@@ -760,7 +760,7 @@ chokidar@^3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-classnames@^2.2, classnames@^2.3.2:
+classnames@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
   integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
