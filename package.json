@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@blueprintjs/core": "4.11.5",
-    "@blueprintjs/icons": "4.8.0",
+    "@blueprintjs/icons": "4.9.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.2.1"
