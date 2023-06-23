@@ -8,6 +8,10 @@
     {
       "matchPackageNames": ["@types/react", "@types/react-dom"],
       "groupName": ["react types"]
+    },
+    {
+      "matchPackagePatterns": ["^@blueprintjs/"],
+      "groupName": ["blueprintjs"]
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"]
