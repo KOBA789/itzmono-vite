@@ -234,13 +234,13 @@
   dependencies:
     tslib "~2.5.0"
 
-"@blueprintjs/core@5.1.4":
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-5.1.4.tgz#944ef88c5ec55246714bf782a221431353bad069"
-  integrity sha512-ffjuv5NYzeyfvpkLSEIkNK3n3DOXirwpG5J3+cqNEmNGO5+fQS911SpTbo3hNMR3K3mhAkWBcKjIHW2cD7DpGQ==
+"@blueprintjs/core@5.1.5":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-5.1.5.tgz#c79beba44a3385c8c4a8d5281387b864050c8bc8"
+  integrity sha512-eyPTQZUVFE1ZO/4g+JWAybbdTvZu8isZh7MFxBegrMvXvhS8i8qNv0lnEwYcWTkNkBOiVRhnE1fn1LVNUoFL/g==
   dependencies:
     "@blueprintjs/colors" "^5.0.1"
-    "@blueprintjs/icons" "^5.1.3"
+    "@blueprintjs/icons" "^5.1.4"
     "@popperjs/core" "^2.11.7"
     classnames "^2.3.1"
     normalize.css "^8.0.1"
@@ -248,10 +248,10 @@
     react-transition-group "^4.4.5"
     tslib "~2.5.0"
 
-"@blueprintjs/icons@5.1.3", "@blueprintjs/icons@^5.1.3":
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-5.1.3.tgz#98e7d4eb40792c97693558f9b662450d5194ed4d"
-  integrity sha512-3aP1XQZa7/4CgQTocSmFHbRPcKGcrxcrBGPmgvX++swTrF4L/crQnUN7m55ucE8bjDEbjHOYExIwAYi7heBKsQ==
+"@blueprintjs/icons@5.1.4", "@blueprintjs/icons@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-5.1.4.tgz#50429c720785f4c50547d277601f441ef503d8d6"
+  integrity sha512-2Vb8kneLZkKkH0VAkFbWHUixvI1UgFeDolev/TnyKHIaAPdGSmhoktmYsZNtcPiznZRrpb2PE03lU8fmBTi2KA==
   dependencies:
     change-case "^4.1.2"
     classnames "^2.3.1"
