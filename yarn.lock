@@ -232,10 +232,10 @@
   dependencies:
     tslib "~2.5.0"
 
-"@blueprintjs/core@5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-5.5.0.tgz#79ab96585141af519653e9ad4f107fda22199eaa"
-  integrity sha512-eojk0F39M0HvqBHhxWzuBVy5fAkBVmrw4rmicOw2xmidsjxv+GZ0VBFymL49mUE89jJYcHdA64mXr2xoEBUxpg==
+"@blueprintjs/core@5.5.1":
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-5.5.1.tgz#1fa09868318f46758edb6efd8130b13034333adf"
+  integrity sha512-+8Af166xlLzzaoDDyzX1Adgd/hCVuIhp4/6RDDzcDnVHxQG4jnHK+D70LIV0FYNMZCzPW0Z6gH9ZTP52QDSqeg==
   dependencies:
     "@blueprintjs/colors" "^5.0.4"
     "@blueprintjs/icons" "^5.2.1"
