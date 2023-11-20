@@ -225,20 +225,20 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@blueprintjs/colors@^5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-5.0.5.tgz#3a8faa640dd2877aa4fd00b886cf8e58daf5f868"
-  integrity sha512-UcCsBxE8GTF6GW1oHBb+cuhPpKiJFWbIRkemwcRkp9HvXXQHxEaXlFFC6jAx5pf3JmRwde5/ck3r+lJFP1YqzA==
+"@blueprintjs/colors@^5.0.7":
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/colors/-/colors-5.0.7.tgz#1997a0086474cae8fe3b2699c679b337f5a6a71c"
+  integrity sha512-JBbIowrQz/Ef8xsxlTTvVdqZXd0ePmaOXjaH6A3xZu6Ntnn4xEXjoSjxuzLno4gcE9yNxeBMrMrXGkkOu+aGPg==
   dependencies:
     tslib "~2.6.2"
 
-"@blueprintjs/core@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-5.6.0.tgz#915b708a8c2d7e916d30dae704829e2d948301d9"
-  integrity sha512-NtQL/iu8P8DhHUCWCstc9Ps+JkRZCPRJ2ZoxubOt21pfxN50CN0sKHkDETHUQyZ73RviveVIIK+m32mT5Wwdqg==
+"@blueprintjs/core@5.7.1":
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-5.7.1.tgz#7ed18bcc3adcf8c6475d50681cf99529b82728b4"
+  integrity sha512-nbOyMTyOAMKAm8WQH161toU6H/1997yQO9hP0vVzLHNmkgpf3sMfeZW5kaZUvx1uV6yWkcJOLqz6j/knt30imQ==
   dependencies:
-    "@blueprintjs/colors" "^5.0.5"
-    "@blueprintjs/icons" "^5.3.0"
+    "@blueprintjs/colors" "^5.0.7"
+    "@blueprintjs/icons" "^5.4.1"
     "@popperjs/core" "^2.11.7"
     classnames "^2.3.1"
     normalize.css "^8.0.1"
@@ -246,10 +246,10 @@
     react-transition-group "^4.4.5"
     tslib "~2.6.2"
 
-"@blueprintjs/icons@5.3.0", "@blueprintjs/icons@^5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-5.3.0.tgz#9c9498df415bf7e028ceac15f90228d0ffd9a521"
-  integrity sha512-PGZHbWZ41b/SDOENlZQE1pAab4eluzf/hZ6sHB5nPrQNJuGNr94yaPp6u//Tu24iqVFFP20Soi3+ckhf/o3V/g==
+"@blueprintjs/icons@5.4.1", "@blueprintjs/icons@^5.4.1":
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-5.4.1.tgz#fe8c43976e4d2050c905ea1aeab6efb9229a6c87"
+  integrity sha512-rDQxBEyksYa59nn9w4POZyiSEqv6uwy1nxh7eI3QRU7HsyQ4fsu8zmvmsDQwmw727DDXhl2ofWhs3u1wIBli4g==
   dependencies:
     change-case "^4.1.2"
     classnames "^2.3.1"
