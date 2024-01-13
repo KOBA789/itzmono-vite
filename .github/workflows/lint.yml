@@ -16,6 +16,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
 
+      - name: Install pnpm
+        run: corepack enable
+
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
 
