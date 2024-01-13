@@ -15,7 +15,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 ENV RUSTUP_HOME=/rust
-ENV CARGO_HOME=/cargo 
+ENV CARGO_HOME=/cargo
 ENV PATH=/cargo/bin:/rust/bin:$PATH
 
 RUN curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain $RUST_VERSION --no-modify-path && \
@@ -24,11 +24,11 @@ RUN curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain $RUST_VERSI
 
 WORKDIR /app
 COPY package.json /app
-COPY yarn.lock /app
-RUN yarn
+COPY pnpm-lock.yaml /app
+RUN corepack enable && pnpm install
 
 COPY . /app
-RUN yarn build
+RUN pnpm build
 
 FROM nginx:1-alpine
 

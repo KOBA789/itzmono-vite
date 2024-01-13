@@ -15,3 +15,18 @@ A project template for Vite + TypeScript + Rust + React + Tailwind CSS + Bluepri
 - :nail_care: Prettier & ESLint
 - :sparkles: Renovate
 - :robot: GitHub Actions (lint, build and push image)
+
+## Setup
+
+```console
+$ corepack enable
+$ pnpm install
+```
+
+## Build
+
+```console
+$ pnpm build
+```
+
+You get built files in `dist/`.
