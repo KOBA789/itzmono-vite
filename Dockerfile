@@ -24,11 +24,11 @@ RUN curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain $RUST_VERSI
 
 WORKDIR /app
 COPY package.json /app
-COPY yarn.lock /app
-RUN yarn
+COPY pnpm-lock.yaml /app
+RUN pnpm install
 
 COPY . /app
-RUN yarn build
+RUN pnpm build
 
 FROM nginx:1-alpine
 

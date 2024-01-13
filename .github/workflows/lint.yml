@@ -17,19 +17,19 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: Install Dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Lint ESLint
-        run: yarn lint:eslint
+        run: pnpm lint:eslint
 
       - name: Lint Prettier
-        run: yarn lint:prettier
+        run: pnpm lint:prettier
 
       - name: Install wasm-pack
         run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 
       - name: Build crates
-        run: yarn build:crates
+        run: pnpm build:crates
 
       - name: TypeCheck
-        run: yarn typecheck
+        run: pnpm typecheck

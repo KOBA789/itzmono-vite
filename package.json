@@ -4,8 +4,8 @@
   "scripts": {
     "crate:build": "cd crates && wasm-pack build --target web --release",
     "crate:dev": "cd crates && cargo watch -s 'wasm-pack build --target web --dev' -C",
-    "crate": "yarn crate:${MODE:-build}",
-    "crates:hello": "yarn crate hello",
+    "crate": "pnpm run crate:${MODE:-build}",
+    "crates:hello": "pnpm run crate hello",
     "dev:crates": "MODE=dev run-p crates:*",
     "dev:vite": "vite --host",
     "dev": "run-p dev:*",
@@ -16,8 +16,8 @@
     "lint:prettier": "prettier . --check",
     "lint:eslint": "eslint . --format stylish",
     "lint": "run-p lint:*",
-    "fix:prettier": "yarn lint:prettier --write",
-    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:prettier": "pnpm run lint:prettier --write",
+    "fix:eslint": "pnpm run lint:eslint --fix",
     "fix": "run-s fix:eslint fix:prettier"
   },
   "dependencies": {
@@ -44,5 +44,9 @@
     "prettier": "2.8.8",
     "typescript": "5.3.3",
     "vite": "5.0.11"
-  }
+  },
+  "engines": {
+    "node": "^21"
+  },
+  "packageManager": "pnpm@8.14.1+sha256.2df78e65d433d7693b9d3fbdaf431b2d96bb4f96a2ffecd51a50efe16e50a6a8"
 }

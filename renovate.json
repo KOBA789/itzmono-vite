@@ -14,5 +14,5 @@
       "groupName": ["blueprintjs"]
     }
   ],
-  "postUpdateOptions": ["yarnDedupeHighest"]
+  "postUpdateOptions": ["pnpmDedupe"]
 }
