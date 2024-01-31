@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@blueprintjs/core':
-    specifier: 5.8.2
-    version: 5.8.2(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 5.9.0
+    version: 5.9.0(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   '@blueprintjs/icons':
-    specifier: 5.7.0
-    version: 5.7.0(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 5.7.1
+    version: 5.7.1(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -314,14 +314,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@blueprintjs/colors@5.0.9:
-    resolution: {integrity: sha512-dWCw4WQ+vuXe4sp+o0owDOuqO84hCMR4mZwdBpsBPbb2eE1G1Vt91e9WH3G8/+6A8xONS8GHOAhWkiAlkr/ENg==}
+  /@blueprintjs/colors@5.1.0:
+    resolution: {integrity: sha512-eNYpVM84NYIgdkywzJdlskzJ2FJCT4EoUa3s86Lhl5VULTOEqEk7CqdbrbCosIRcYHBsR3tdtMjb9g9tfczgFQ==}
     dependencies:
       tslib: 2.6.2
     dev: false
 
-  /@blueprintjs/core@5.8.2(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-reeCUMT7exH2zxA4T6aAfgK9YARE9nUkRKwZK9XgZ/sTzojB75SuaUehrTYz4hQ6HrWbWtUzhhpK4ooI8OIWJA==}
+  /@blueprintjs/core@5.9.0(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-vLBhnbrXrSMqF7K6EwvaSyD6ycP7vwFjv4rYAV13FDgJIiY0DwwCl+9upyrdFj77hqZufyIXw9mMP/ylIFidvg==}
     hasBin: true
     peerDependencies:
       '@types/react': ^16.14.41 || 17 || 18
@@ -331,8 +331,8 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@blueprintjs/colors': 5.0.9
-      '@blueprintjs/icons': 5.7.0(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@blueprintjs/colors': 5.1.0
+      '@blueprintjs/icons': 5.7.1(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@popperjs/core': 2.11.8
       '@types/react': 18.2.48
       classnames: 2.5.1
@@ -341,11 +341,13 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
       react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.2.0)(react@18.2.0)
       react-transition-group: 4.4.5(react-dom@18.2.0)(react@18.2.0)
+      react-uid: 2.3.3(@types/react@18.2.48)(react@18.2.0)
       tslib: 2.6.2
+      use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@blueprintjs/icons@5.7.0(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-rRTDhdbDjY6WWCoZtgbD2UNPwpvjGGhieJcrvP/RcKaJKxRP4BeE9ejFq+5NWtBuVfVOraIiYF7fx6xc0wd/ww==}
+  /@blueprintjs/icons@5.7.1(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-oWOaa6PFYa3ShBtUpNGU0fnu66AC0/ecQoD1VnI1yg3F0IFHxKApYOC11SL//ckfB6tDkqN+O8Y/7TdtTmVzig==}
     peerDependencies:
       '@types/react': ^16.14.41 || 17 || 18
       react: ^16.8 || 17 || 18
@@ -2816,6 +2818,21 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
+  /react-uid@2.3.3(@types/react@18.2.48)(react@18.2.0):
+    resolution: {integrity: sha512-iNpDovcb9qBpBTo8iUgqRSQOS8GV3bWoNaTaUptHkXtAooXSo0OWe7vN6TqqB8x3x0bNBbQx96kkmSltQ5h9kQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@types/react': 18.2.48
+      react: 18.2.0
+      tslib: 2.6.2
+    dev: false
+
   /react@18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
@@ -3368,6 +3385,14 @@ packages:
     dependencies:
       punycode: 2.3.1
     dev: true
+
+  /use-sync-external-store@1.2.0(react@18.2.0):
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
