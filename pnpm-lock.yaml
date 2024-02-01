@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@blueprintjs/core':
-    specifier: 5.9.0
-    version: 5.9.0(@types/react@18.2.51)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 5.9.1
+    version: 5.9.1(@types/react@18.2.51)(react-dom@18.2.0)(react@18.2.0)
   '@blueprintjs/icons':
     specifier: 5.7.1
     version: 5.7.1(@types/react@18.2.51)(react-dom@18.2.0)(react@18.2.0)
@@ -320,8 +320,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@blueprintjs/core@5.9.0(@types/react@18.2.51)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-vLBhnbrXrSMqF7K6EwvaSyD6ycP7vwFjv4rYAV13FDgJIiY0DwwCl+9upyrdFj77hqZufyIXw9mMP/ylIFidvg==}
+  /@blueprintjs/core@5.9.1(@types/react@18.2.51)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/Cq6CAV/GyMhTOGrzgIBDsneduQCFWxzDwlX2f8MMAFZFO7FaeCONPvzbcxpTRAXR+RFkb4HpPdIsAslyZUMzA==}
     hasBin: true
     peerDependencies:
       '@types/react': ^16.14.41 || 17 || 18
