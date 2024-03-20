@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@blueprintjs/core':
-    specifier: 5.10.0
-    version: 5.10.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 5.10.1
+    version: 5.10.1(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
   '@blueprintjs/icons':
-    specifier: 5.8.0
-    version: 5.8.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 5.9.0
+    version: 5.9.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -320,8 +320,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@blueprintjs/core@5.10.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-jJNRw61ITWDJlrqSM+vx8kG6nBrFO55SmIQU2TepQ6iPIv3PQtv1gmLWc0TmUdtiROMy0ehhddMqEulOmOXGsQ==}
+  /@blueprintjs/core@5.10.1(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-yE10tC/tA/NWo8zsged3n0PUcjlQzh9GqNKOqMAoSSnsAKGI+RJiHtbS2RERyKU+NailIsuFx1k282ohkJvkOQ==}
     hasBin: true
     peerDependencies:
       '@types/react': ^16.14.41 || 17 || 18
@@ -332,7 +332,7 @@ packages:
         optional: true
     dependencies:
       '@blueprintjs/colors': 5.1.1
-      '@blueprintjs/icons': 5.8.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
+      '@blueprintjs/icons': 5.9.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
       '@popperjs/core': 2.11.8
       '@types/react': 18.2.67
       classnames: 2.5.1
@@ -346,8 +346,8 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@blueprintjs/icons@5.8.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-QAl0eh1lzYR7CDkT6Uerci5x7jy0vtOj6+B+5cg0noEdjguHoRmhx7b3dDcj+Nmlz6rAvRZoU3cgzfk0NiD1zg==}
+  /@blueprintjs/icons@5.9.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-9W9DYFqSORBr1QPSEwpbjnftbU+hfWB/gFtpa4LdzR7VhtQaCdcrinyXFmNUFacQ9czYrmr72bP567Rv6pRUDg==}
     peerDependencies:
       '@types/react': ^16.14.41 || 17 || 18
       react: ^16.8 || 17 || 18
