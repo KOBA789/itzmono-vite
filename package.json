@@ -43,7 +43,7 @@
     "postcss": "8.4.37",
     "prettier": "3.2.5",
     "typescript": "5.4.2",
-    "vite": "5.1.6"
+    "vite": "5.2.1"
   },
   "engines": {
     "node": "^21"
