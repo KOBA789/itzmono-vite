@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@blueprintjs/core':
     specifier: 5.10.1
-    version: 5.10.1(@types/react@18.2.70)(react-dom@18.2.0)(react@18.2.0)
+    version: 5.10.1(@types/react@18.2.71)(react-dom@18.2.0)(react@18.2.0)
   '@blueprintjs/icons':
     specifier: 5.9.0
-    version: 5.9.0(@types/react@18.2.70)(react-dom@18.2.0)(react@18.2.0)
+    version: 5.9.0(@types/react@18.2.71)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@types/react':
-    specifier: 18.2.70
-    version: 18.2.70
+    specifier: 18.2.71
+    version: 18.2.71
   '@types/react-dom':
     specifier: 18.2.22
     version: 18.2.22
@@ -320,7 +320,7 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@blueprintjs/core@5.10.1(@types/react@18.2.70)(react-dom@18.2.0)(react@18.2.0):
+  /@blueprintjs/core@5.10.1(@types/react@18.2.71)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-yE10tC/tA/NWo8zsged3n0PUcjlQzh9GqNKOqMAoSSnsAKGI+RJiHtbS2RERyKU+NailIsuFx1k282ohkJvkOQ==}
     hasBin: true
     peerDependencies:
@@ -332,21 +332,21 @@ packages:
         optional: true
     dependencies:
       '@blueprintjs/colors': 5.1.1
-      '@blueprintjs/icons': 5.9.0(@types/react@18.2.70)(react-dom@18.2.0)(react@18.2.0)
+      '@blueprintjs/icons': 5.9.0(@types/react@18.2.71)(react-dom@18.2.0)(react@18.2.0)
       '@popperjs/core': 2.11.8
-      '@types/react': 18.2.70
+      '@types/react': 18.2.71
       classnames: 2.5.1
       normalize.css: 8.0.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.2.0)(react@18.2.0)
       react-transition-group: 4.4.5(react-dom@18.2.0)(react@18.2.0)
-      react-uid: 2.3.3(@types/react@18.2.70)(react@18.2.0)
+      react-uid: 2.3.3(@types/react@18.2.71)(react@18.2.0)
       tslib: 2.6.2
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@blueprintjs/icons@5.9.0(@types/react@18.2.70)(react-dom@18.2.0)(react@18.2.0):
+  /@blueprintjs/icons@5.9.0(@types/react@18.2.71)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-9W9DYFqSORBr1QPSEwpbjnftbU+hfWB/gFtpa4LdzR7VhtQaCdcrinyXFmNUFacQ9czYrmr72bP567Rv6pRUDg==}
     peerDependencies:
       '@types/react': ^16.14.41 || 17 || 18
@@ -356,7 +356,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.70
+      '@types/react': 18.2.71
       change-case: 4.1.2
       classnames: 2.5.1
       react: 18.2.0
@@ -841,11 +841,11 @@ packages:
   /@types/react-dom@18.2.22:
     resolution: {integrity: sha512-fHkBXPeNtfvri6gdsMYyW+dW7RXFo6Ad09nLFK0VQWR7yGLai/Cyvyj696gbwYvBnhGtevUG9cET0pmUbMtoPQ==}
     dependencies:
-      '@types/react': 18.2.70
+      '@types/react': 18.2.71
     dev: true
 
-  /@types/react@18.2.70:
-    resolution: {integrity: sha512-hjlM2hho2vqklPhopNkXkdkeq6Lv8WSZTpr7956zY+3WS5cfYUewtCzsJLsbW5dEv3lfSeQ4W14ZFeKC437JRQ==}
+  /@types/react@18.2.71:
+    resolution: {integrity: sha512-PxEsB9OjmQeYGffoWnYAd/r5FiJuUw2niFQHPc2v2idwh8wGPkkYzOHuinNJJY6NZqfoTCiOIizDOz38gYNsyw==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -2872,7 +2872,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /react-uid@2.3.3(@types/react@18.2.70)(react@18.2.0):
+  /react-uid@2.3.3(@types/react@18.2.71)(react@18.2.0):
     resolution: {integrity: sha512-iNpDovcb9qBpBTo8iUgqRSQOS8GV3bWoNaTaUptHkXtAooXSo0OWe7vN6TqqB8x3x0bNBbQx96kkmSltQ5h9kQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -2882,7 +2882,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.70
+      '@types/react': 18.2.71
       react: 18.2.0
       tslib: 2.6.2
     dev: false
