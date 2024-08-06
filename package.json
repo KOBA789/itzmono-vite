@@ -40,7 +40,7 @@
     "eslint-plugin-react": "7.35.0",
     "eslint-plugin-react-hooks": "4.6.2",
     "npm-run-all2": "6.2.2",
-    "postcss": "8.4.40",
+    "postcss": "8.4.41",
     "prettier": "3.3.3",
     "typescript": "5.5.4",
     "vite": "5.3.5"
