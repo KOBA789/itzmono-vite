@@ -7,7 +7,8 @@
     },
     {
       "matchPackageNames": ["@types/react", "@types/react-dom"],
-      "groupName": "react types"
+      "matchSourceUrls": ["/^https://github.com/facebook/react/"],
+      "groupName": "React packages"
     },
     {
       "groupName": "blueprintjs",
