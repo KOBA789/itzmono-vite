@@ -1,18 +1,30 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
     {
-      "updateTypes": ["minor", "patch"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "automerge": true
     },
     {
-      "matchPackageNames": ["@types/react", "@types/react-dom"],
-      "groupName": ["react types"]
+      "matchPackageNames": [
+        "@types/react",
+        "@types/react-dom"
+      ],
+      "groupName": "react types"
     },
     {
-      "matchPackagePatterns": ["^@blueprintjs/"],
-      "groupName": ["blueprintjs"]
+      "groupName": "blueprintjs",
+      "matchPackageNames": [
+        "/^@blueprintjs//"
+      ]
     }
   ],
-  "postUpdateOptions": ["pnpmDedupe"]
+  "postUpdateOptions": [
+    "pnpmDedupe"
+  ]
 }
