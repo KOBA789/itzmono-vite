@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@blueprintjs/core':
         specifier: 5.16.4
-        version: 5.16.4(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 5.16.4(@types/react@19.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@blueprintjs/icons':
         specifier: 5.17.1
-        version: 5.17.1(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 5.17.1(@types/react@19.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -25,11 +25,11 @@ importers:
         version: 3.4.17
     devDependencies:
       '@types/react':
-        specifier: 18.3.18
-        version: 18.3.18
+        specifier: 19.0.8
+        version: 19.0.8
       '@types/react-dom':
-        specifier: 18.3.5
-        version: 18.3.5(@types/react@18.3.18)
+        specifier: 19.0.3
+        version: 19.0.3(@types/react@19.0.8)
       '@typescript-eslint/eslint-plugin':
         specifier: 8.22.0
         version: 8.22.0(@typescript-eslint/parser@8.22.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)(typescript@5.7.3)
@@ -499,16 +499,13 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
-  '@types/prop-types@15.7.11':
-    resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
-
-  '@types/react-dom@18.3.5':
-    resolution: {integrity: sha512-P4t6saawp+b/dFrUr2cvkVsfvPguwsxtH6dNIYRllMsefqFzkZk5UIjzyDOv5g1dXIPdG4Sp1yCR4Z6RCUsG/Q==}
+  '@types/react-dom@19.0.3':
+    resolution: {integrity: sha512-0Knk+HJiMP/qOZgMyNFamlIjw9OFCsyC2ZbigmEEyXXixgre6IQpm/4V+r3qH4GC1JPvRJKInw+on2rV6YZLeA==}
     peerDependencies:
-      '@types/react': ^18.0.0
+      '@types/react': ^19.0.0
 
-  '@types/react@18.3.18':
-    resolution: {integrity: sha512-t4yC+vtgnkYjNSKlFx1jkAhH8LgTo2N/7Qvi83kdEaUtMDiwpbLAktKDaAMlRcJ5eSxZkH74eEGt1ky31d7kfQ==}
+  '@types/react@19.0.8':
+    resolution: {integrity: sha512-9P/o1IGdfmQxrujGbIMDyYaaCykhLKc0NGCtYcECNUr9UAaDe4gwvV9bR6tvd5Br1SG0j+PBpbKr2UYY8CwqSw==}
 
   '@typescript-eslint/eslint-plugin@8.22.0':
     resolution: {integrity: sha512-4Uta6REnz/xEJMvwf72wdUnC3rr4jAQf5jnTkeRQ9b6soxLxhDEbS/pfMPoJLDfFPNVRdryqWUIV/2GZzDJFZw==}
@@ -2025,10 +2022,10 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  '@blueprintjs/core@5.16.4(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@blueprintjs/core@5.16.4(@types/react@19.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@blueprintjs/colors': 5.1.5
-      '@blueprintjs/icons': 5.17.1(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@blueprintjs/icons': 5.17.1(@types/react@19.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@popperjs/core': 2.11.8
       classnames: 2.5.1
       normalize.css: 8.0.1
@@ -2036,13 +2033,13 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react-uid: 2.3.3(@types/react@18.3.18)(react@18.3.1)
+      react-uid: 2.3.3(@types/react@19.0.8)(react@18.3.1)
       tslib: 2.6.2
       use-sync-external-store: 1.2.0(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 19.0.8
 
-  '@blueprintjs/icons@5.17.1(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@blueprintjs/icons@5.17.1(@types/react@19.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       change-case: 4.1.2
       classnames: 2.5.1
@@ -2050,7 +2047,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       tslib: 2.6.2
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 19.0.8
 
   '@esbuild/aix-ppc64@0.21.5':
     optional: true
@@ -2270,15 +2267,12 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
-  '@types/prop-types@15.7.11': {}
-
-  '@types/react-dom@18.3.5(@types/react@18.3.18)':
+  '@types/react-dom@19.0.3(@types/react@19.0.8)':
     dependencies:
-      '@types/react': 18.3.18
+      '@types/react': 19.0.8
 
-  '@types/react@18.3.18':
+  '@types/react@19.0.8':
     dependencies:
-      '@types/prop-types': 15.7.11
       csstype: 3.1.3
 
   '@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)(typescript@5.7.3)':
@@ -3501,12 +3495,12 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  react-uid@2.3.3(@types/react@18.3.18)(react@18.3.1):
+  react-uid@2.3.3(@types/react@19.0.8)(react@18.3.1):
     dependencies:
       react: 18.3.1
       tslib: 2.6.2
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 19.0.8
 
   react@18.3.1:
     dependencies:
