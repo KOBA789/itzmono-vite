@@ -23,8 +23,8 @@
   "dependencies": {
     "@blueprintjs/core": "5.19.1",
     "@blueprintjs/icons": "5.23.0",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
     "tailwindcss": "4.1.11"
   },
   "devDependencies": {
