@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@blueprintjs/core':
-        specifier: 5.19.1
-        version: 5.19.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        specifier: 6.1.0
+        version: 6.1.0(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@blueprintjs/icons':
-        specifier: 5.23.0
-        version: 5.23.0(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        specifier: 6.0.0
+        version: 6.0.0(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       react:
         specifier: 19.1.1
         version: 19.1.1
@@ -176,23 +176,23 @@ packages:
   '@blueprintjs/colors@5.1.8':
     resolution: {integrity: sha512-rCl+NZwR6xjJeCB6yWglbqWU2zOdVgeI5unBASalzMXWpRO0UXIjx0pA/Vtii4cB2kIdk8PaHTlGmZnLTu/MSg==}
 
-  '@blueprintjs/core@5.19.1':
-    resolution: {integrity: sha512-vjLd9jnuHPunW6zsZtx0f03zb33aRa/k6nnwH+N16NEIs7/wHWX5f5ljtEguSt/M1jx4IT0oescMQMAuXWXAWQ==}
+  '@blueprintjs/core@6.1.0':
+    resolution: {integrity: sha512-ltsZ9qJwn8TFOPAXA7/5aV8k+aSQX2WYamZPGTIUzXJO18RCO0NsnpPTfq36GiTxumKZjdT3W56iP2Q2n9gsOw==}
     hasBin: true
     peerDependencies:
-      '@types/react': ^16.14.41 || 17 || 18
-      react: ^16.8 || 17 || 18
-      react-dom: ^16.8 || 17 || 18
+      '@types/react': '18'
+      react: '18'
+      react-dom: '18'
     peerDependenciesMeta:
       '@types/react':
         optional: true
 
-  '@blueprintjs/icons@5.23.0':
-    resolution: {integrity: sha512-yxQ+A0V79/UsyIw4XYuEvaFqr3FIaRlp79rKh+ZdHLafedqPfp4LO6xtF6EziWFCvuHOTJdFCfSC8AoQeSENMw==}
+  '@blueprintjs/icons@6.0.0':
+    resolution: {integrity: sha512-t8j+JAlNgrrhiI/QtehDPea/jY62wW3vIlsoqgezXfevnCuVXb1QQNOc2if46LYkUkFXWvD7rBZanLnXxBgB1g==}
     peerDependencies:
-      '@types/react': ^16.14.41 || 17 || 18
-      react: ^16.8 || 17 || 18
-      react-dom: ^16.8 || 17 || 18
+      '@types/react': '18'
+      react: '18'
+      react-dom: '18'
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -1628,16 +1628,6 @@ packages:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
 
-  react-uid@2.3.3:
-    resolution: {integrity: sha512-iNpDovcb9qBpBTo8iUgqRSQOS8GV3bWoNaTaUptHkXtAooXSo0OWe7vN6TqqB8x3x0bNBbQx96kkmSltQ5h9kQ==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-
   react@19.1.1:
     resolution: {integrity: sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==}
     engines: {node: '>=0.10.0'}
@@ -2066,10 +2056,10 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  '@blueprintjs/core@5.19.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@blueprintjs/core@6.1.0(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@blueprintjs/colors': 5.1.8
-      '@blueprintjs/icons': 5.23.0(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@blueprintjs/icons': 6.0.0(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@popperjs/core': 2.11.8
       classnames: 2.5.1
       normalize.css: 8.0.1
@@ -2077,13 +2067,12 @@ snapshots:
       react-dom: 19.1.1(react@19.1.1)
       react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       react-transition-group: 4.4.5(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      react-uid: 2.3.3(@types/react@19.1.9)(react@19.1.1)
       tslib: 2.6.2
       use-sync-external-store: 1.2.0(react@19.1.1)
     optionalDependencies:
       '@types/react': 19.1.9
 
-  '@blueprintjs/icons@5.23.0(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@blueprintjs/icons@6.0.0(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       change-case: 4.1.2
       classnames: 2.5.1
@@ -3576,13 +3565,6 @@ snapshots:
       prop-types: 15.8.1
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
-
-  react-uid@2.3.3(@types/react@19.1.9)(react@19.1.1):
-    dependencies:
-      react: 19.1.1
-      tslib: 2.6.2
-    optionalDependencies:
-      '@types/react': 19.1.9
 
   react@19.1.1: {}
 
