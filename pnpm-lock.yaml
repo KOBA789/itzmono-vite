@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@blueprintjs/core':
+        specifier: 6.2.0
+        version: 6.2.0(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@blueprintjs/icons':
         specifier: 6.1.0
         version: 6.1.0(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      '@blueprintjs/icons':
-        specifier: 6.0.0
-        version: 6.0.0(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       react:
         specifier: 19.1.1
         version: 19.1.1
@@ -173,11 +173,11 @@ packages:
     resolution: {integrity: sha512-x0LvFTekgSX+83TI28Y9wYPUfzrnl2aT5+5QLnO6v7mSJYtEEevuDRN0F0uSHRk1G1IWZC43o00Y0xDDrpBGPQ==}
     engines: {node: '>=6.9.0'}
 
-  '@blueprintjs/colors@5.1.8':
-    resolution: {integrity: sha512-rCl+NZwR6xjJeCB6yWglbqWU2zOdVgeI5unBASalzMXWpRO0UXIjx0pA/Vtii4cB2kIdk8PaHTlGmZnLTu/MSg==}
+  '@blueprintjs/colors@5.1.9':
+    resolution: {integrity: sha512-gk9nlb2tc1qBK/BpVHkC0KQSAmd9PnF60D0iCDEyyh1R/3UzwhTYUvw9Q0XMLfFInNeVAbfsIbko41BmLptAaA==}
 
-  '@blueprintjs/core@6.1.0':
-    resolution: {integrity: sha512-ltsZ9qJwn8TFOPAXA7/5aV8k+aSQX2WYamZPGTIUzXJO18RCO0NsnpPTfq36GiTxumKZjdT3W56iP2Q2n9gsOw==}
+  '@blueprintjs/core@6.2.0':
+    resolution: {integrity: sha512-Dwrsabd1Oc7yXbXIW9e8Vn63AR/iBMSBtB1vdO9WcGMFaPn69NbWjWHfiM09kEIl5HQIABW9BUoBQ1+et6kFtw==}
     hasBin: true
     peerDependencies:
       '@types/react': '18'
@@ -187,8 +187,8 @@ packages:
       '@types/react':
         optional: true
 
-  '@blueprintjs/icons@6.0.0':
-    resolution: {integrity: sha512-t8j+JAlNgrrhiI/QtehDPea/jY62wW3vIlsoqgezXfevnCuVXb1QQNOc2if46LYkUkFXWvD7rBZanLnXxBgB1g==}
+  '@blueprintjs/icons@6.1.0':
+    resolution: {integrity: sha512-FvARNeJGvQPwewtKBB/8jYAj1xQFXFf34/SSdpDxZGhAeEf98NdUHilsel3M2wT/FPNWJCKhDHSND4sDgpMr+A==}
     peerDependencies:
       '@types/react': '18'
       react: '18'
@@ -2055,14 +2055,14 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@blueprintjs/colors@5.1.8':
+  '@blueprintjs/colors@5.1.9':
     dependencies:
       tslib: 2.6.2
 
-  '@blueprintjs/core@6.1.0(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@blueprintjs/core@6.2.0(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
-      '@blueprintjs/colors': 5.1.8
-      '@blueprintjs/icons': 6.0.0(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@blueprintjs/colors': 5.1.9
+      '@blueprintjs/icons': 6.1.0(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@popperjs/core': 2.11.8
       classnames: 2.5.1
       normalize.css: 8.0.1
@@ -2075,7 +2075,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.1.10
 
-  '@blueprintjs/icons@6.0.0(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@blueprintjs/icons@6.1.0(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       change-case: 4.1.2
       classnames: 2.5.1
