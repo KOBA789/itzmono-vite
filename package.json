@@ -33,7 +33,7 @@
     "@types/react-dom": "19.2.0",
     "@vitejs/plugin-react": "4.7.0",
     "autoprefixer": "10.4.21",
-    "eslint": "9.36.0",
+    "eslint": "9.37.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-config-react": "1.1.7",
     "eslint-plugin-react": "7.37.5",
