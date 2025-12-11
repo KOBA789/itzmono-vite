@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@blueprintjs/core':
         specifier: 6.4.1
-        version: 6.4.1(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        version: 6.4.1(@types/react@19.2.7)(react-dom@19.2.2(react@19.2.2))(react@19.2.2)
       '@blueprintjs/icons':
         specifier: 6.3.2
-        version: 6.3.2(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        version: 6.3.2(@types/react@19.2.7)(react-dom@19.2.2(react@19.2.2))(react@19.2.2)
       react:
-        specifier: 19.2.1
-        version: 19.2.1
+        specifier: 19.2.2
+        version: 19.2.2
       react-dom:
-        specifier: 19.2.1
-        version: 19.2.1(react@19.2.1)
+        specifier: 19.2.2
+        version: 19.2.2(react@19.2.2)
       tailwindcss:
         specifier: 4.1.17
         version: 4.1.17
@@ -1540,10 +1540,10 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  react-dom@19.2.1:
-    resolution: {integrity: sha512-ibrK8llX2a4eOskq1mXKu/TGZj9qzomO+sNfO98M6d9zIPOEhlBkMkBUBLd1vgS0gQsLDBzA+8jJBVXDnfHmJg==}
+  react-dom@19.2.2:
+    resolution: {integrity: sha512-fhyD2BLrew6qYf4NNtHff1rLXvzR25rq49p+FeqByOazc6TcSi2n8EYulo5C1PbH+1uBW++5S1SG7FcUU6mlDg==}
     peerDependencies:
-      react: ^19.2.1
+      react: ^19.2.2
 
   react-fast-compare@3.2.2:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
@@ -1568,8 +1568,8 @@ packages:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
 
-  react@19.2.1:
-    resolution: {integrity: sha512-DGrYcCWK7tvYMnWh79yrPHt+vdx9tY+1gPZa7nJQtO/p8bLTDaHp4dzwEhQB7pZ4Xe3ok4XKuEPrVuc+wlpkmw==}
+  react@19.2.2:
+    resolution: {integrity: sha512-BdOGOY8OKRBcgoDkwqA8Q5XvOIhoNx/Sh6BnGJlet2Abt0X5BK0BDrqGyQgLhAVjD2nAg5f6o01u/OPUhG022Q==}
     engines: {node: '>=0.10.0'}
 
   read-package-json-fast@4.0.0:
@@ -1977,28 +1977,28 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  '@blueprintjs/core@6.4.1(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@blueprintjs/core@6.4.1(@types/react@19.2.7)(react-dom@19.2.2(react@19.2.2))(react@19.2.2)':
     dependencies:
       '@blueprintjs/colors': 5.1.12
-      '@blueprintjs/icons': 6.3.2(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+      '@blueprintjs/icons': 6.3.2(@types/react@19.2.7)(react-dom@19.2.2(react@19.2.2))(react@19.2.2)
       '@popperjs/core': 2.11.8
       classnames: 2.5.1
       normalize.css: 8.0.1
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
-      react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      react-transition-group: 4.4.5(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+      react: 19.2.2
+      react-dom: 19.2.2(react@19.2.2)
+      react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@19.2.2(react@19.2.2))(react@19.2.2)
+      react-transition-group: 4.4.5(react-dom@19.2.2(react@19.2.2))(react@19.2.2)
       tslib: 2.6.2
-      use-sync-external-store: 1.2.0(react@19.2.1)
+      use-sync-external-store: 1.2.0(react@19.2.2)
     optionalDependencies:
       '@types/react': 19.2.7
 
-  '@blueprintjs/icons@6.3.2(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@blueprintjs/icons@6.3.2(@types/react@19.2.7)(react-dom@19.2.2(react@19.2.2))(react@19.2.2)':
     dependencies:
       change-case: 4.1.2
       classnames: 2.5.1
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
+      react: 19.2.2
+      react-dom: 19.2.2(react@19.2.2)
       tslib: 2.6.2
     optionalDependencies:
       '@types/react': 19.2.7
@@ -3402,35 +3402,35 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  react-dom@19.2.1(react@19.2.1):
+  react-dom@19.2.2(react@19.2.2):
     dependencies:
-      react: 19.2.1
+      react: 19.2.2
       scheduler: 0.27.0
 
   react-fast-compare@3.2.2: {}
 
   react-is@16.13.1: {}
 
-  react-popper@2.3.0(@popperjs/core@2.11.8)(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
+  react-popper@2.3.0(@popperjs/core@2.11.8)(react-dom@19.2.2(react@19.2.2))(react@19.2.2):
     dependencies:
       '@popperjs/core': 2.11.8
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
+      react: 19.2.2
+      react-dom: 19.2.2(react@19.2.2)
       react-fast-compare: 3.2.2
       warning: 4.0.3
 
   react-refresh@0.17.0: {}
 
-  react-transition-group@4.4.5(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
+  react-transition-group@4.4.5(react-dom@19.2.2(react@19.2.2))(react@19.2.2):
     dependencies:
       '@babel/runtime': 7.23.8
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
+      react: 19.2.2
+      react-dom: 19.2.2(react@19.2.2)
 
-  react@19.2.1: {}
+  react@19.2.2: {}
 
   read-package-json-fast@4.0.0:
     dependencies:
@@ -3718,9 +3718,9 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  use-sync-external-store@1.2.0(react@19.2.1):
+  use-sync-external-store@1.2.0(react@19.2.2):
     dependencies:
-      react: 19.2.1
+      react: 19.2.2
 
   vite@7.2.7(jiti@2.6.1)(lightningcss@1.30.2):
     dependencies:
