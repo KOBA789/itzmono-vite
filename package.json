@@ -31,7 +31,7 @@
     "@tailwindcss/vite": "^4.0.3",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-    "@vitejs/plugin-react": "4.7.0",
+    "@vitejs/plugin-react": "5.1.2",
     "autoprefixer": "10.4.23",
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
