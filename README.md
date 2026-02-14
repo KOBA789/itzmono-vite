@@ -1,4 +1,4 @@
-# itzmono-vite-norust
+# itzmono-vite
 
 A project template for Vite + TypeScript + React + Tailwind CSS + Blueprint apps 🚀
 
