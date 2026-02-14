@@ -13,9 +13,14 @@ jobs:
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
+        with:
+          node-version-file: package.json
+          cache: pnpm
 
       - name: Install pnpm
-        run: corepack enable
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.29.3
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
