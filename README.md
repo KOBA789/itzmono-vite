@@ -16,11 +16,8 @@ A project template for Vite + TypeScript + React + Tailwind CSS + Blueprint apps
 ## Setup
 
 ```console
-$ npm install -g pnpm@10.29.3
 $ pnpm install
 ```
-
-This repository does not assume Corepack is available.
 
 ## Build
 
