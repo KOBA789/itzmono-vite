@@ -2,16 +2,10 @@
   "name": "itzmono-vite",
   "version": "0.0.0",
   "scripts": {
-    "crate:build": "cd crates && wasm-pack build --target web --release",
-    "crate:dev": "cd crates && cargo watch -s 'wasm-pack build --target web --dev' -C",
-    "crate": "pnpm run crate:${MODE:-build}",
-    "crates:hello": "pnpm run crate hello",
-    "dev:crates": "MODE=dev run-p crates:*",
     "dev:vite": "vite --host",
-    "dev": "run-p dev:*",
-    "build:crates": "run-s crates:*",
+    "dev": "run-p dev:vite",
     "build:vite": "vite build",
-    "build": "run-s build:crates build:vite",
+    "build": "run-s build:vite",
     "typecheck": "tsc",
     "lint:prettier": "prettier . --check",
     "lint:eslint": "eslint . --format stylish",
@@ -21,8 +15,8 @@
     "fix": "run-s fix:eslint fix:prettier",
     "test:visual:run": "node scripts/run-visual-test.mjs",
     "test:visual:update:run": "playwright test --update-snapshots",
-    "test:visual": "run-s build:crates test:visual:run",
-    "test:visual:update": "run-s build:crates test:visual:update:run"
+    "test:visual": "run-s test:visual:run",
+    "test:visual:update": "run-s test:visual:update:run"
   },
   "dependencies": {
     "@blueprintjs/core": "6.8.0",

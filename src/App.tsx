@@ -1,10 +1,11 @@
 import React from "react";
 import { Button, H1 } from "@blueprintjs/core";
-import init, { greet } from "@crate/hello/pkg";
-
-init();
 
 export const App: React.FC = () => {
+  const greet = () => {
+    window.alert("Hello, world!");
+  };
+
   return (
     <>
       <H1>Hello</H1>
