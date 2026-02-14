@@ -20,12 +20,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Install wasm-pack
-        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
-
-      - name: Build crates
-        run: pnpm build:crates
-
       - name: Install Playwright browser
         run: pnpm exec playwright install chromium
 

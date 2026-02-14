@@ -7,7 +7,7 @@ import { Linter } from "eslint";
 
 export default tseslint.config(
   {
-    ignores: ["dist/", "crates/*/pkg/"],
+    ignores: ["dist/"],
   },
   eslint.configs.recommended,
   tseslint.configs.recommended,

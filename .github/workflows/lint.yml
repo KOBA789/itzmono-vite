@@ -28,11 +28,5 @@ jobs:
       - name: Lint Prettier
         run: pnpm lint:prettier
 
-      - name: Install wasm-pack
-        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
-
-      - name: Build crates
-        run: pnpm build:crates
-
       - name: TypeCheck
         run: pnpm typecheck
