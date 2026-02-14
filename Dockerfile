@@ -1,4 +1,4 @@
-FROM node:22-slim as builder
+FROM node:24-slim as builder
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
